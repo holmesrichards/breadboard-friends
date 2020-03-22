@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name bbf-eurojacks-thonkiconn)(type KiCad)(uri ${KIPRJMOD}/bbf-eurojacks-thonkiconn.pretty)(options "")(descr ""))
-)

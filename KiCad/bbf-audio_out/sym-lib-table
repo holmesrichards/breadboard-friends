@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name bbf-audio_out-eagle-import)(type Legacy)(uri ${KIPRJMOD}/bbf-audio_out-eagle-import.lib)(options "")(descr ""))
-)

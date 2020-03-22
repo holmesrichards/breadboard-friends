@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name bbf-audio_out)(type KiCad)(uri "$(KIPRJMOD)/bbf-audio_out.pretty")(options "")(descr ""))
-)
