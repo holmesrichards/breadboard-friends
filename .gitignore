@@ -27,3 +27,14 @@
 
 # OS X crap
 .DS_Stor?
+
+# KiCad
+fp-info-cache
+*bak
+*cache*
+sym-lib-table
+*~
+fp-lib-table
+*.bck
+*.dcm
+*.zip
