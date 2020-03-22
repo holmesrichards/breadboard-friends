@@ -1,0 +1,134 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# bbf-eurojacks-eagle-import_1502_03SLOTTED
+#
+DEF bbf-eurojacks-eagle-import_1502_03SLOTTED J 0 40 Y Y 1 L N
+F0 "J" -100 160 59 H V L BNN
+F1 "bbf-eurojacks-eagle-import_1502_03SLOTTED" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 90 -20 310 20 1 0 0 F
+P 2 1 0 0 -100 -100 180 -100 N
+P 2 1 0 0 -100 0 -30 0 N
+P 2 1 0 0 -100 100 0 100 N
+P 2 1 0 0 -40 60 -20 60 N
+P 2 1 0 0 -30 0 -30 90 N
+P 2 1 0 0 -30 90 -40 60 N
+P 2 1 0 0 -20 60 -30 90 N
+P 2 1 0 0 0 100 60 40 N
+P 2 1 0 0 60 40 90 70 N
+X 1 1 -200 -100 100 R 50 0 1 0 P
+X 2 2 -200 100 100 R 50 0 1 0 P
+X 3 3 -200 0 100 R 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bbf-eurojacks-eagle-import_GND
+#
+DEF bbf-eurojacks-eagle-import_GND #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "bbf-eurojacks-eagle-import_GND" -100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# bbf-eurojacks-eagle-import_M05X2PTH
+#
+DEF bbf-eurojacks-eagle-import_M05X2PTH JP 0 40 Y Y 1 L N
+F0 "JP" -100 330 59 H V L BNN
+F1 "bbf-eurojacks-eagle-import_M05X2PTH" -100 -400 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -150 300 -150 -300 N
+P 2 1 0 0 -150 300 150 300 N
+P 2 1 0 0 -50 -200 -100 -200 N
+P 2 1 0 0 -50 -100 -100 -100 N
+P 2 1 0 0 -50 0 -100 0 N
+P 2 1 0 0 -50 100 -100 100 N
+P 2 1 0 0 -50 200 -100 200 N
+P 2 1 0 0 50 -200 100 -200 N
+P 2 1 0 0 50 -100 100 -100 N
+P 2 1 0 0 50 0 100 0 N
+P 2 1 0 0 50 100 100 100 N
+P 2 1 0 0 50 200 100 200 N
+P 2 1 0 0 150 -300 -150 -300 N
+P 2 1 0 0 150 -300 150 300 N
+X 1 1 -300 200 200 R 50 0 1 0 P
+X 10 10 300 -200 200 L 50 0 1 0 P
+X 2 2 300 200 200 L 50 0 1 0 P
+X 3 3 -300 100 200 R 50 0 1 0 P
+X 4 4 300 100 200 L 50 0 1 0 P
+X 5 5 -300 0 200 R 50 0 1 0 P
+X 6 6 300 0 200 L 50 0 1 0 P
+X 7 7 -300 -100 200 R 50 0 1 0 P
+X 8 8 300 -100 200 L 50 0 1 0 P
+X 9 9 -300 -200 200 R 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bbf-eurojacks-eagle-import_M08
+#
+DEF bbf-eurojacks-eagle-import_M08 JP 0 40 Y Y 1 L N
+F0 "JP" -200 530 59 H V L BNN
+F1 "bbf-eurojacks-eagle-import_M08" -200 -500 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -200 500 -200 -400 N
+P 2 1 0 0 -200 500 50 500 N
+P 2 1 0 0 -50 -300 0 -300 N
+P 2 1 0 0 -50 -200 0 -200 N
+P 2 1 0 0 -50 -100 0 -100 N
+P 2 1 0 0 -50 0 0 0 N
+P 2 1 0 0 -50 100 0 100 N
+P 2 1 0 0 -50 200 0 200 N
+P 2 1 0 0 -50 300 0 300 N
+P 2 1 0 0 -50 400 0 400 N
+P 2 1 0 0 50 -400 -200 -400 N
+P 2 1 0 0 50 -400 50 500 N
+X 1 1 200 -300 200 L 50 0 1 0 P
+X 2 2 200 -200 200 L 50 0 1 0 P
+X 3 3 200 -100 200 L 50 0 1 0 P
+X 4 4 200 0 200 L 50 0 1 0 P
+X 5 5 200 100 200 L 50 0 1 0 P
+X 6 6 200 200 200 L 50 0 1 0 P
+X 7 7 200 300 200 L 50 0 1 0 P
+X 8 8 200 400 200 L 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bbf-eurojacks-eagle-import_VCC
+#
+DEF bbf-eurojacks-eagle-import_VCC #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "bbf-eurojacks-eagle-import_VCC" -40 140 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 100 -30 50 N
+P 2 1 0 0 30 50 0 100 N
+X VCC 1 0 0 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# bbf-eurojacks-eagle-import_VEE
+#
+DEF bbf-eurojacks-eagle-import_VEE #SUPPLY 0 40 Y Y 1 L P
+F0 "#SUPPLY" 0 0 50 H I C CNN
+F1 "bbf-eurojacks-eagle-import_VEE" -75 125 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 50 50 1 0 10 N
+X VEE 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+#End Library

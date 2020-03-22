@@ -1,0 +1,224 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# bbf-audio_out-eagle-import_C-US025-025X050
+#
+DEF bbf-audio_out-eagle-import_C-US025-025X050 C 0 40 Y Y 1 L N
+F0 "C" 40 25 59 H V L BNN
+F1 "bbf-audio_out-eagle-import_C-US025-025X050" 40 -165 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 -199 159 900 1274 1 0 10 N 0 -40 -97 -72
+A 0 -198 159 519 900 1 0 10 N 98 -73 0 -39
+P 2 1 0 0 -100 0 100 0 N
+P 2 1 0 0 0 -40 0 -100 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bbf-audio_out-eagle-import_GND
+#
+DEF bbf-audio_out-eagle-import_GND #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "bbf-audio_out-eagle-import_GND" -100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# bbf-audio_out-eagle-import_M02PTH
+#
+DEF bbf-audio_out-eagle-import_M02PTH JP 0 40 Y Y 1 L N
+F0 "JP" -100 230 59 H V L BNN
+F1 "bbf-audio_out-eagle-import_M02PTH" -100 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 200 -100 -100 N
+P 2 1 0 0 -100 200 150 200 N
+P 2 1 0 0 50 0 100 0 N
+P 2 1 0 0 50 100 100 100 N
+P 2 1 0 0 150 -100 -100 -100 N
+P 2 1 0 0 150 -100 150 200 N
+X 1 1 300 0 200 L 50 0 1 0 P
+X 2 2 300 100 200 L 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bbf-audio_out-eagle-import_M03PTH
+#
+DEF bbf-audio_out-eagle-import_M03PTH JP 0 40 Y Y 1 L N
+F0 "JP" -100 230 59 H V L BNN
+F1 "bbf-audio_out-eagle-import_M03PTH" -100 -300 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 200 -100 -200 N
+P 2 1 0 0 -100 200 150 200 N
+P 2 1 0 0 50 -100 100 -100 N
+P 2 1 0 0 50 0 100 0 N
+P 2 1 0 0 50 100 100 100 N
+P 2 1 0 0 150 -200 -100 -200 N
+P 2 1 0 0 150 -200 150 200 N
+X 1 1 300 -100 200 L 50 0 1 0 P
+X 2 2 300 0 200 L 50 0 1 0 P
+X 3 3 300 100 200 L 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bbf-audio_out-eagle-import_M05X2PTH
+#
+DEF bbf-audio_out-eagle-import_M05X2PTH JP 0 40 Y Y 1 L N
+F0 "JP" -100 330 59 H V L BNN
+F1 "bbf-audio_out-eagle-import_M05X2PTH" -100 -400 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -150 300 -150 -300 N
+P 2 1 0 0 -150 300 150 300 N
+P 2 1 0 0 -50 -200 -100 -200 N
+P 2 1 0 0 -50 -100 -100 -100 N
+P 2 1 0 0 -50 0 -100 0 N
+P 2 1 0 0 -50 100 -100 100 N
+P 2 1 0 0 -50 200 -100 200 N
+P 2 1 0 0 50 -200 100 -200 N
+P 2 1 0 0 50 -100 100 -100 N
+P 2 1 0 0 50 0 100 0 N
+P 2 1 0 0 50 100 100 100 N
+P 2 1 0 0 50 200 100 200 N
+P 2 1 0 0 150 -300 -150 -300 N
+P 2 1 0 0 150 -300 150 300 N
+X 1 1 -300 200 200 R 50 0 1 0 P
+X 10 10 300 -200 200 L 50 0 1 0 P
+X 2 2 300 200 200 L 50 0 1 0 P
+X 3 3 -300 100 200 R 50 0 1 0 P
+X 4 4 300 100 200 L 50 0 1 0 P
+X 5 5 -300 0 200 R 50 0 1 0 P
+X 6 6 300 0 200 L 50 0 1 0 P
+X 7 7 -300 -100 200 R 50 0 1 0 P
+X 8 8 300 -100 200 L 50 0 1 0 P
+X 9 9 -300 -200 200 R 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bbf-audio_out-eagle-import_MONOSWSLIM
+#
+DEF bbf-audio_out-eagle-import_MONOSWSLIM J 0 40 Y Y 1 L N
+F0 "J" -150 -200 59 V V L BNN
+F1 "bbf-audio_out-eagle-import_MONOSWSLIM" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -200 -100 100 N
+P 2 1 0 0 -100 100 0 100 N
+P 2 1 0 0 0 -200 -100 -200 N
+P 2 1 0 0 0 100 0 -200 N
+P 2 1 0 0 0 100 300 100 N
+P 2 1 0 0 150 -100 200 -50 N
+P 2 1 0 0 200 -50 250 -100 N
+P 2 1 0 0 250 -100 300 -100 N
+P 2 1 0 0 270 -150 300 -100 N
+P 2 1 0 0 300 -200 300 -100 N
+P 2 1 0 0 300 -100 500 -100 N
+P 2 1 0 0 300 0 300 100 N
+P 2 1 0 0 300 100 270 50 N
+P 2 1 0 0 300 100 330 50 N
+P 2 1 0 0 300 100 500 100 N
+P 2 1 0 0 330 -150 300 -100 N
+P 2 1 0 0 400 -200 300 -200 N
+P 2 1 0 0 400 0 300 0 N
+X S S 500 100 100 L 50 0 1 0 P
+X SN SN 500 0 100 L 50 0 1 0 P
+X T T 500 -100 100 L 50 0 1 0 P
+X TN TN 500 -200 100 L 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bbf-audio_out-eagle-import_R-US_0204_7
+#
+DEF bbf-audio_out-eagle-import_R-US_0204_7 R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "bbf-audio_out-eagle-import_R-US_0204_7" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bbf-audio_out-eagle-import_TL072P
+#
+DEF bbf-audio_out-eagle-import_TL072P IC 0 40 Y Y 3 L N
+F0 "IC" 100 125 59 H I L BNN
+F1 "bbf-audio_out-eagle-import_TL072P" 100 -200 59 H I L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 900 50 125 27 0 3 0 V+ Normal 0 L B
+T 900 50 -175 27 0 3 0 V- Normal 0 L B
+P 2 1 0 0 -200 -200 200 0 N
+P 2 1 0 0 -200 200 -200 -200 N
+P 2 1 0 0 -175 -100 -125 -100 N
+P 2 1 0 0 -175 100 -125 100 N
+P 2 1 0 0 -150 125 -150 75 N
+P 2 1 0 0 200 0 -200 200 N
+P 2 2 0 0 -200 -200 200 0 N
+P 2 2 0 0 -200 200 -200 -200 N
+P 2 2 0 0 -175 -100 -125 -100 N
+P 2 2 0 0 -175 100 -125 100 N
+P 2 2 0 0 -150 125 -150 75 N
+P 2 2 0 0 200 0 -200 200 N
+X OUT 1 300 0 100 L 50 0 1 0 O
+X -IN 2 -300 -100 100 R 50 0 1 0 I
+X +IN 3 -300 100 100 R 50 0 1 0 I
+X +IN 5 -300 100 100 R 50 0 2 0 I
+X -IN 6 -300 -100 100 R 50 0 2 0 I
+X OUT 7 300 0 100 L 50 0 2 0 O
+X V- 4 0 -300 200 U 50 0 3 0 W
+X V+ 8 0 300 200 D 50 0 3 0 W
+ENDDRAW
+ENDDEF
+#
+# bbf-audio_out-eagle-import_VCC
+#
+DEF bbf-audio_out-eagle-import_VCC #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "bbf-audio_out-eagle-import_VCC" -40 140 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 100 -30 50 N
+P 2 1 0 0 30 50 0 100 N
+X VCC 1 0 0 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# bbf-audio_out-eagle-import_VEE
+#
+DEF bbf-audio_out-eagle-import_VEE #SUPPLY 0 40 Y Y 1 L P
+F0 "#SUPPLY" 0 0 50 H I C CNN
+F1 "bbf-audio_out-eagle-import_VEE" -75 125 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 50 50 1 0 10 N
+X VEE 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+#End Library

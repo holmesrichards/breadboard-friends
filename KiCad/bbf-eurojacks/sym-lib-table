@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name bbf-eurojacks-eagle-import)(type Legacy)(uri ${KIPRJMOD}/bbf-eurojacks-eagle-import.lib)(options "")(descr ""))
+)
