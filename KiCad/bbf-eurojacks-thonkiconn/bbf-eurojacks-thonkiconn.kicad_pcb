@@ -85,9 +85,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "Gerbers/"))
   )
 
   (net 0 "")
@@ -662,7 +662,7 @@
   (segment (start 149.2761 92.1586) (end 149.2761 89.9) (width 0.25) (layer Top) (net 11))
   (segment (start 142.7861 98.6486) (end 149.2761 92.1586) (width 0.25) (layer Top) (net 11))
 
-  (zone (net 1) (net_name GND) (layer Bottom) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer Bottom) (tstamp 5E78D4B7) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
